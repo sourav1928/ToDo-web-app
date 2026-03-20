@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
 
-const api = axios.create({ baseURL: "http://localhost:5000/api/todos" });
+const api = axios.create({ baseURL: "https://todo-web-app-s3gf.onrender.com/api/todos" });
 
 const STATUS = { ALL: "all", PENDING: "pending", COMPLETED: "completed" };
 const PRIORITY = ["low", "medium", "high"];
